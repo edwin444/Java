@@ -4,6 +4,16 @@ Clearly methods are overridden by child class.
 However, if base case pointer used to point to child class reference, for data members
 with same name the base class data type is given more preference.
  */
+
+/*
+Incremental invoke of constructors in Java
+------------------------------------------
+The obvious choice is also the correct choice.
+The default constructor of the parent class is called.
+If the parent class also has its own parent class, then that constructor is also called, and so forth.
+In effect, the ancestor that's furthest up has its constructor called all the way down to its descendant
+and finally to the code in the method body of the constructor you called.
+ */
 public class Flight{
     int seats = 100;
     public int getSeats()
@@ -17,6 +27,7 @@ class CargoFlightG extends Flight{
     public int getSeats() {
         return this.seats;
     }
+    public int getParentsSeats() { return super.getSeats(); }
 }
 
 class CargoFlightB extends Flight{
