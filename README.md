@@ -1,5 +1,3 @@
-# Java
-Core Java Tutorial
 
 # Java
 Core Java Tutorial
