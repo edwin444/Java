@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="240a393f-1c41-4ea2-a209-9a723eb6ca25" name="Default Changelist" comment="Changed directory structure">
-      <change afterPath="$PROJECT_DIR$/src/com/tutorials/exceptionHandling/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tutorials/finalVariations/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/tutorials/stringClass/Main.java" afterDir="false" />
+    <list default="true" id="240a393f-1c41-4ea2-a209-9a723eb6ca25" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/tutorials/inheritance/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tutorials/inheritance/Flight.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/tutorials/exceptionHandling/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="-2128">
+              <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
               <folding>
                 <element signature="e#99#100#0" expanded="true" />
                 <element signature="e#136#137#0" expanded="true" />
@@ -98,13 +95,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tutorials" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tutorials" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptionHandling" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -114,7 +104,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -257,14 +247,20 @@
       <option name="project" value="LOCAL" />
       <updated>1558075454828</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added Exception handling concepts">
+      <created>1558084957314</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558084957314</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.37362638" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.37291983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -273,7 +269,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34697217" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34697217" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -299,7 +295,8 @@
     <MESSAGE value="Added inheritance concept" />
     <MESSAGE value="Modified ObjectClass methods" />
     <MESSAGE value="Changed directory structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed directory structure" />
+    <MESSAGE value="Added Exception handling concepts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Exception handling concepts" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -399,8 +396,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tutorials/exceptionHandling/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="-2128">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
           <folding>
             <element signature="e#99#100#0" expanded="true" />
             <element signature="e#136#137#0" expanded="true" />
