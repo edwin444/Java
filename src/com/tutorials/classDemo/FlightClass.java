@@ -25,7 +25,8 @@ public class FlightClass {
     //it is rounded as otherwise a case of (long) will truncate the float result.
     long circumferenceInKilometers = Math.round(circumferenceInMiles+1.6d);
 
-    FlightClass()
+    //note: if package is public and its
+    public FlightClass()
     {
         passengers = 0;
         seats = 150;
