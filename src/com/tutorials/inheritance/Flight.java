@@ -1,4 +1,4 @@
-package com.tutorials.com.tutorials.inheritance;
+package com.tutorials.inheritance;
 /*
 Clearly methods are overridden by child class.
 However, if base case pointer used to point to child class reference, for data members
