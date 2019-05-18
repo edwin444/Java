@@ -7,11 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="240a393f-1c41-4ea2-a209-9a723eb6ca25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/JavaDemo/com/tutorials/comparableComparator/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaDemo/com/tutorials/comparableComparator/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaDemo/com/tutorials/comparableComparator/MyComparator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/JavaDemo/com/tutorials/comparableComparator/MyComparator1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/tutorials/comparableComparator/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDemo/com/tutorials/comparableComparator/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/tutorials/comparableComparator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDemo/com/tutorials/comparableComparator/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/tutorials/comparableComparator/MyComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDemo/com/tutorials/comparableComparator/MyComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaDemo/com/tutorials/comparableComparator/MyComparator1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaDemo/com/tutorials/comparableComparator/MyComparator1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/tutorials/comparableComparator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tutorials/comparableComparator/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,6 +20,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="190" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -54,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/tutorials/comparableComparator/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+            <state relative-caret-position="204">
+              <caret line="92" column="28" lean-forward="true" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -327,12 +330,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558183983418</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Modified comparableComparator">
+      <created>1558193427691</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1558193427691</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24357034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -352,6 +361,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
@@ -374,11 +384,17 @@
     <MESSAGE value="Added Distribution files" />
     <MESSAGE value="Added Iterator and Iterable interface usage" />
     <MESSAGE value="Added Comparator and Comparable interface usage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Comparator and Comparable interface usage" />
+    <MESSAGE value="Modified comparableComparator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified comparableComparator" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaDemo$Main__3_.ic" NAME="Main (3) Coverage Results" MODIFIED="1558194568855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.tutorials.comparableComparator.*</FILTER>
+    </SUITE>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/tutorials/classDemo/FlightClass.java">
@@ -529,8 +545,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tutorials/comparableComparator/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="204">
+          <caret line="92" column="28" lean-forward="true" selection-start-line="92" selection-start-column="28" selection-end-line="92" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

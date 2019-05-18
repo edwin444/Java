@@ -68,24 +68,44 @@ class MyComparator1 implements Comparator
             return 0;
     }
 }
+/*
+If Comparable() is not inherited and Comparator is not used , default random sorting order is followed.
+
+Here TreeSet by default considers the compareTo() overridden method in the
+class of the object which is to be sorted , here Employee.
+
+If we provide a comparator class implementation is takes that implementation of compare() method to sort instead.
+We use comparator() way of sorting so, that we can define multiple ways to sort unlike Comparable.
+ */
 public class Main {
     public static void main(String[] args)
     {
-        Employee e1 = new Employee(1,2,"Abraham");
-        Employee e2 = new Employee(1,40,"Kevin");
+        Employee e1 = new Employee(1,40,"Abraham");
+        Employee e2 = new Employee(1,2,"Kevin");
 
-        //default sorting order of TreeSet
+        //Default Sorting order by overridden compareTo() method.
+        TreeSet t0 = new TreeSet();
+        t0.add(e1);
+        t0.add(e2);
+
+        //Iterator should always have the type declared.(here Employee)
+        Iterator<Employee> it0 = t0.iterator();
+        while(it0.hasNext())
+            System.out.println("Default: "+ it0.next().name);
+
+
+        //Custom Sorting order 1.
         TreeSet t = new TreeSet(new MyComparator1());
         t.add(e1);
         t.add(e2);
 
-        //Iterator should always the type declared.(here Employee)
+        //Iterator should always have the type declared.(here Employee)
         Iterator<Employee> it = t.iterator();
         while(it.hasNext())
             System.out.println("Default: "+ it.next().name);
 
 
-        //custom sorting order using Comparator
+        //Custom Sorting order 2.
         TreeSet t1 = new TreeSet(new MyComparator());
         t1.add(e1);
         t1.add(e2);
