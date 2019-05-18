@@ -7,8 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="240a393f-1c41-4ea2-a209-9a723eb6ca25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/tutorials/comparableComparator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaDemo/com/tutorials/comparableComparator/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaDemo/com/tutorials/comparableComparator/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaDemo/com/tutorials/comparableComparator/MyComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/JavaDemo/com/tutorials/comparableComparator/MyComparator1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tutorials/comparableComparator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tutorials/comparableComparator/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/tutorials/comparableComparator/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-40">
-              <caret line="62" column="38" lean-forward="true" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+            <state relative-caret-position="283">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -316,14 +320,21 @@
       <option name="project" value="LOCAL" />
       <updated>1558172496796</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added Comparator and Comparable interface usage">
+      <created>1558183983418</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1558183983418</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24357034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24357034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -332,7 +343,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34697217" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34697217" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -362,7 +373,8 @@
     <MESSAGE value="Added out/production" />
     <MESSAGE value="Added Distribution files" />
     <MESSAGE value="Added Iterator and Iterable interface usage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Iterator and Iterable interface usage" />
+    <MESSAGE value="Added Comparator and Comparable interface usage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Comparator and Comparable interface usage" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -517,8 +529,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tutorials/comparableComparator/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="62" column="38" lean-forward="true" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+        <state relative-caret-position="283">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

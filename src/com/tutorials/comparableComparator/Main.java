@@ -13,10 +13,10 @@ Comparable: An interface which contains the compare(Object o,Object o1) method.
 		//class and we can do this only for user defined
 		//classes and not predefined classes like String
 		//we do this so that default sorting order
-		//is set
-		//Now when we create a treeSet object without any
-		//comparator object then it means default sorting
+		//is set.
+		//Without any comparator object then it means default sorting.
  */
+
 
 
 import java.util.Comparator;
@@ -60,7 +60,12 @@ class MyComparator1 implements Comparator
     public int compare(Object o1, Object o2) {
         Employee e1 = (Employee) o1;
         Employee e2 = (Employee) o2;
-        return (e1.compareTo(e2)+3)%3;       //  -1 1 0   2 4 3   => negating
+        if (e1.id>e2.id)
+            return -1;
+        else if (e1.id<e2.id)
+            return 1;
+        else
+            return 0;
     }
 }
 public class Main {
