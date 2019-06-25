@@ -1,4 +1,5 @@
 package com.tutorials.arrays;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,6 +19,8 @@ public class Main {
         for (float t : temp1) {
             System.out.println("From the second Array: " + t);
         }
+
+        ArrayList a = new ArrayList();
 
     }
 
